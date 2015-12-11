@@ -1,0 +1,136 @@
+######--- L(2, 7) ---######
+
+linux14:/uac/msc/wyzhang/CSP/asg3> ./langford -model 1 7 2
+
+Initial
+        propagators: 8
+        branchers:   1
+
+Summary
+        runtime:      0.011 (11.345 ms)
+        solutions:    52
+        propagations: 3581
+        nodes:        655
+        failures:     276
+        restarts:     0
+        no-goods:     0
+        peak depth:   8
+
+
+linux14:/uac/msc/wyzhang/CSP/asg3> ./langford -model 2 7 2
+
+
+Initial
+        propagators: 127
+        branchers:   1
+
+Summary
+        runtime:      0.021 (21.889 ms)
+        solutions:    52
+        propagations: 52276
+        nodes:        949
+        failures:     423
+        restarts:     0
+        no-goods:     0
+        peak depth:   10
+
+linux14:/uac/msc/wyzhang/CSP/asg3> ./langford -model 3 -search 1 7 2
+
+Initial
+        propagators: 136
+        branchers:   1
+
+Summary
+        runtime:      0.023 (23.530 ms)
+        solutions:    52
+        propagations: 26724
+        nodes:        655
+        failures:     276
+        restarts:     0
+        no-goods:     0
+        peak depth:   8
+
+linux14:/uac/msc/wyzhang/CSP/asg3> ./langford -model 3 -search 2 7 2
+
+Initial
+        propagators: 136
+        branchers:   1
+
+Summary
+        runtime:      0.027 (27.427 ms)
+        solutions:    52
+        propagations: 53791
+        nodes:        949
+        failures:     423
+        restarts:     0
+        no-goods:     0
+        peak depth:   10
+
+linux14:/uac/msc/wyzhang/CSP/asg3> ./langford -model 3 -search 3 7 2
+
+
+Initial
+        propagators: 136
+        branchers:   2
+
+Summary
+        runtime:      0.019 (19.254 ms)
+        solutions:    52
+        propagations: 26724
+        nodes:        655
+        failures:     276
+        restarts:     0
+        no-goods:     0
+        peak depth:   8
+
+linux14:/uac/msc/wyzhang/CSP/asg3> ./langford -model 4 -search 1 7 2
+
+Initial
+        propagators: 136
+        branchers:   1
+
+Summary
+        runtime:      0.014 (14.740 ms)
+        solutions:    26
+        propagations: 17744
+        nodes:        393
+        failures:     171
+        restarts:     0
+        no-goods:     0
+        peak depth:   8
+
+linux14:/uac/msc/wyzhang/CSP/asg3> ./langford -model 4 -search 2 7 2
+
+Initial
+        propagators: 136
+        branchers:   1
+
+Summary
+        runtime:      0.017 (17.708 ms)
+        solutions:    26
+        propagations: 34492
+        nodes:        597
+        failures:     273
+        restarts:     0
+        no-goods:     0
+        peak depth:   10
+
+linux14:/uac/msc/wyzhang/CSP/asg3> ./langford -model 4 -search 3 7 2
+
+Initial
+        propagators: 136
+        branchers:   2
+
+Summary
+        runtime:      0.014 (14.978 ms)
+        solutions:    26
+        propagations: 17744
+        nodes:        393
+        failures:     171
+        restarts:     0
+        no-goods:     0
+        peak depth:   8
+
+
+
+
